@@ -50,18 +50,18 @@ export default function Experience() {
         </div>
         {/* end of front end */}
 
-        {/* <div className='experience__backend'>
+        <div className='experience__backend'>
           <h3>Backend Development</h3>
           <div className='experience__content'>
             
             <article className='experience__details'>
               <h1 className='experience__details-icon'>O</h1>
-              <h4>HTML</h4>
+              <h4>Node JS</h4>
               <small className='text-light '>Experienced</small>
             </article>
             <article className='experience__details'>
               <h1 className='experience__details-icon'>O</h1>
-              <h4>CSS</h4>
+              <h4>MongoDB</h4>
               <small className='text-light '>Intermediate</small>
             </article>
             <article className='experience__details'>
@@ -69,13 +69,13 @@ export default function Experience() {
               <h4>JavaScript</h4>
               <small className='text-light '>Intermediate</small>
             </article>
-            <article className='experience__details'>
+            {/* <article className='experience__details'>
               <h1 className='experience__details-icon'>O</h1>
               <h4>React</h4>
               <small className='text-light '>Experienced</small>
-            </article>
+            </article> */}
           </div>
-        </div> */}
+        </div>
 
       </div>
 
