@@ -69,11 +69,11 @@ export default function Experience() {
               <h4>JavaScript</h4>
               <small className='text-light '>Intermediate</small>
             </article>
-            {/* <article className='experience__details'>
+            <article className='experience__details'>
               <h1 className='experience__details-icon'>O</h1>
               <h4>React</h4>
               <small className='text-light '>Experienced</small>
-            </article> */}
+            </article>
           </div>
         </div>
 
