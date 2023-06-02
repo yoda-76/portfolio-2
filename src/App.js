@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import AboutUs from './components/AboutUs/AboutUs';
+import ContactUs from './components/ContactUs/ContactUs';
+
+import { Header } from './components/Header/Header';
+import Nav from './components/Nav/Nav';
+import Portfolio from './components/Portfolio/Portfolio';
+import Services from './components/Services/Services';
+
+import Experience from './components/Experience/Experience';
+import Footer from './components/Footer/Footer';
+import ScrollUp from './components/ScrollUp/ScrollUp';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Nav/>
+      <AboutUs/>
+      <Experience/>
+      <Services/>
+      <Portfolio/>
+
+      <ContactUs/>
+      <Footer/>
+      {/* <ScrollUp/> */}
+
     </div>
   );
 }
