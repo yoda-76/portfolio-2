@@ -1,22 +1,22 @@
 nav{
     background: rgba(0,0,0,0.3);
     width: max-content;
-    padding: 0.7rem 1.7rem;
+    padding: 0.7rem 4rem;
     z-index: 2;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
     bottom: 2rem;
     display: flex;
-    gap: 0.8rem;
+    gap:2rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);   
 }
 
 nav a{
     background: transparent;
-    padding: 0.9rem;
-    border-radius: 40%;
+    padding: 1rem 1.5rem;
+    border-radius: 3rem;
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;

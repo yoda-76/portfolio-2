@@ -6,11 +6,11 @@ import HeaderSocials from './HeaderSocials'
 
 export const Header = () => {
   return (
-    <header>
+    <header className='pt-[5rem]'>
       <div className='header container header--container'>
-        <h5>Hello I'm</h5>
-        <h1>Yadvendra Sharma</h1>
-        <h5 className='text-light'>Fullstack Developer</h5>
+        <h5 className="text-[1.75rem]" >Hello I'm</h5>
+        <h1 className="text-[3.5rem]" >Yadvendra Sharma</h1>
+        <h5 className='text-light text-[2rem]'>Fullstack Developer</h5>
         <CTA/>
         
           <a href='#contact' className='scroll__down'>Scroll Down</a>

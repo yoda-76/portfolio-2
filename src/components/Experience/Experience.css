@@ -9,7 +9,7 @@
 
 .experience__container > div{
     background: var(--color-bg-variant);
-    width: 60vh;
+    width: aut0;
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
