@@ -22,13 +22,13 @@ export default function AboutUs() {
             <article className='about__card flex flex-col items-start gap-2'>
               <h1><BsFillBriefcaseFill className='text-[1rem]'/></h1>
               <h5 className='text-[1.5rem]'>Experience</h5>
-              <small className='text-[.75rem]'>3+ years working </small>
+              <small className='text-[.75rem]'>1 year </small>
             </article>
 
             <article className='about__card flex flex-col items-start gap-2'>
               <h1><FaHandshake className='text-[1rem]'/></h1>
               <h5 className='text-[1.5rem]'>Clients</h5>
-              <small className='text-[.75rem]'>200+ Clients</small>
+              <small className='text-[.75rem]'>5+ Clients</small>
             </article>
 
             <article className='about__card flex flex-col items-start gap-2'>

@@ -2,6 +2,8 @@ import React from "react";
 import "./Portfolio.css";
 import IMG1 from "../../asset/image1.png";
 import IMG2 from "../../asset/image2.jpeg";
+import IMG3 from "../../asset/image3.png";
+
 
 export default function Portfolio() {
   return (
@@ -25,20 +27,21 @@ export default function Portfolio() {
           </div>
         </article>
 
-        {/* <article className="portfolio__item gap-4 flex-col flex rounded-2xl">
+
+        <article className="portfolio__item gap-4 flex-col flex rounded-2xl">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG3} alt="" />
           </div>
-          <h3>This is a portfolio item.</h3>
+          <h3>Upstox API Bridge</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn px-10 py-4">
+            <a href="https://github.com/yoda-76/upstox-scalper-1" className="btn px-10 py-4">
               Github
             </a>
-            <a href="https://github.com" className="btn px-10 py-4 btn-primary">
+            <a href="https://projectsbyyoda.xyz/scalper/client" className="btn px-10 py-4 btn-primary">
               Live Demo
             </a>
           </div>
-        </article> */}
+        </article>
       </div>
     </section>
   );
