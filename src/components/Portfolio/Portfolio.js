@@ -37,7 +37,7 @@ export default function Portfolio() {
             <a href="https://github.com/yoda-76/upstox-scalper-1" className="btn px-10 py-4">
               Github
             </a>
-            <a href="https://projectsbyyoda.xyz/scalper/client" className="btn px-10 py-4 btn-primary">
+            <a href="https://upstox-scalper-2.vercel.app/" className="btn px-10 py-4 btn-primary">
               Live Demo
             </a>
           </div>

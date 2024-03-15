@@ -21,7 +21,7 @@ function App() {
       <Experience/>
       <Services/>
       <Portfolio/>
-
+      
       <ContactUs/>
       <Footer/>
       {/* <ScrollUp/> */}
