@@ -58,7 +58,7 @@ export default function Experience() {
               <h1 className='experience__details-icon'><AiFillHtml5 className='text-[2rem]'/></h1>
               <div>
                 <h4>Node</h4>
-                <small className='text-light '>Intermediate</small>
+                <small className='text-light '>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
@@ -73,7 +73,7 @@ export default function Experience() {
               <h1 className='experience__details-icon'><SiJavascript className='text-[2rem]'/></h1>
               <div>
                 <h4>Express</h4>
-                <small className='text-light '>Intermediate</small>
+                <small className='text-light '>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
