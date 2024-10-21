@@ -1,8 +1,8 @@
 import React from "react";
 import "./Portfolio.css";
-import IMG1 from "../../asset/image1.png";
+import IMG1 from "../../asset/WhatsTrekHero.png";
 import IMG2 from "../../asset/image2.jpeg";
-import IMG3 from "../../asset/image3.png";
+import IMG3 from "../../asset/c2t.png";
 
 
 export default function Portfolio() {
@@ -18,10 +18,10 @@ export default function Portfolio() {
           </div>
           <h3>DevsClash</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/yoda-76/CodeClash" className="btn px-10 py-4">
-              Github
+            <a href="https://www.whatstrek.com/" target="_blank" className="btn px-10 py-4">
+              Website
             </a>
-            <a href="https://www.devsclash.com/" className="btn px-10 py-4 btn-primary">
+            <a href="https://play.google.com/store/apps/details?id=com.message.whatstrek&pcampaignid=web_share&pli=1" target="_blank" className="btn px-10 py-4 btn-primary">
               Live Demo
             </a>
           </div>
@@ -34,10 +34,10 @@ export default function Portfolio() {
           </div>
           <h3>Upstox API Bridge</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/yoda-76/upstox-scalper-1" className="btn px-10 py-4">
+            {/* <a href="https://github.com/yoda-76/upstox-scalper-1" className="btn px-10 py-4">
               Github
-            </a>
-            <a href="https://upstox-scalper-2.vercel.app/" className="btn px-10 py-4 btn-primary">
+            </a> */}
+            <a href="https://www.cliq2trade.com/" target="_blank" className="btn px-10 py-4 btn-primary">
               Live Demo
             </a>
           </div>

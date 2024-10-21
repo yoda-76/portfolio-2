@@ -63,6 +63,13 @@ export default function Services() {
               <h1 className='service__list-icon'>O</h1>
               <p>E-commerce website development </p>
             </li>
+            <li>
+              <h1 className='service__list-icon'>O</h1>
+              <p>Algo trading stratigy </p>
+            </li> <li>
+              <h1 className='service__list-icon'>O</h1>
+              <p>Android app development </p>
+            </li>
             
           </ul>
         </article>

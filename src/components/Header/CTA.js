@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from "../../asset/cv.pdf"
+import CV from "../../asset/cv2.pdf"
 export default function CTA() {
   return (
     <div className='cta'>
